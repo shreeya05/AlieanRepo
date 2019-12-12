@@ -1,0 +1,88 @@
+[debug (12/12/19 9:40:07 PM)] Debug: setLogFile: C:\Users\Shreeya\Pictures\S\SikuliX-1.1.3-SetupLog.txt
+[debug (12/12/19 9:40:07 PM)] RunSetup: ... starting with no args given
+[debug (12/12/19 9:40:07 PM)] RunSetup: Setup: 1.1.3 2018-07-11_08:19 in folder:
+C:\Users\Shreeya\Pictures\S
+[debug (12/12/19 9:40:07 PM)] RunSetup: RunningSystem: Windows 10.0
+[debug (12/12/19 9:40:07 PM)] RunSetup: parent of jar/classes: C:\Users\Shreeya\Pictures\S
+[debug (12/12/19 9:40:07 PM)] RunSetup: RunningJava: Java 8 (amd64) 1.8.0_191-b12
+[debug (12/12/19 9:40:07 PM)] init user preferences
+[debug (12/12/19 9:40:13 PM)] RunSetup: 
+popAsk: --------------------
+The following file(s) will be downloaded to
+C:\Users\Shreeya\Pictures\S
+--- Native support libraries for Windows (sikulixlibs...)
+--- Package 2 ---
+sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar (Java API)
+Only click NO, if you want to terminate setup now!
+Click YES even if you want to use local copies in Downloads!
+--------------------
+[debug (12/12/19 9:40:17 PM)] FileManager: Downloading sikulixlibswin-1.1.1.jar having 10577 KB
+[debug (12/12/19 9:40:33 PM)] FileManager: downloaded 10577 KB to:
+C:\Users\Shreeya\AppData\Roaming\Sikulix\SikulixDownloads\sikulixlibswin-1.1.1.jar
+[debug (12/12/19 9:40:33 PM)] FileManager: download time: 16
+[debug (12/12/19 9:40:36 PM)] RunSetup: Copied from Downloads: sikulixlibswin
+[debug (12/12/19 9:40:36 PM)] FileManager: resetFolder:
+C:\Users\Shreeya\Pictures\S\SetupStuff\sikulixlibs\windows
+jar:file:/C:/Users/Shreeya/Pictures/S/sikulixlibswin.jar
+[debug (12/12/19 9:40:36 PM)] FileManager: download to string from:
+https://oss.sonatype.org/content/groups/public/com/sikulix/sikulixsetupAPI/1.1.3-SNAPSHOT/maven-metadata.xml,
+[debug (12/12/19 9:40:38 PM)] RunSetup: getMavenJar: sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar
+[debug (12/12/19 9:40:44 PM)] FileManager: Downloading sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar having 19093 KB
+[debug (12/12/19 9:41:42 PM)] FileManager: downloaded 19093 KB to:
+C:\Users\Shreeya\AppData\Roaming\Sikulix\SikulixDownloads_201807110819\sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar
+[debug (12/12/19 9:41:42 PM)] FileManager: download time: 57
+[debug (12/12/19 9:41:46 PM)] RunSetup: Copied from Downloads: sikulixapi
+[debug (12/12/19 9:41:46 PM)] RunSetup: Download ended
+[debug (12/12/19 9:41:46 PM)] RunSetup: Downloads for selected options:
+sikulixlibswin-1.1.1.jar sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar 
+[debug (12/12/19 9:41:46 PM)] RunSetup: adding needed stuff to sikulixapi.jar
+[debug (12/12/19 9:41:46 PM)] FileManager: buildJar: sikulixtemp.jar
+[debug (12/12/19 9:41:46 PM)] FileManager: buildJar: adding: sikulixapi.jar
+[debug (12/12/19 9:41:52 PM)] FileManager: buildJar: adding: sikulixlibswin.jar
+[debug (12/12/19 9:41:57 PM)] FileManager: buildJar: adding sikulixcontent at sikulixlibswin
+[debug (12/12/19 9:41:58 PM)] FileManager: buildJar: completed
+[debug (12/12/19 9:41:58 PM)] RunSetup: renaming sikulixtemp.jar to target jar: sikulixapi.jar
+[debug (12/12/19 9:41:58 PM)] RunSetup: Trying to run functional test: JAVA-API 
+[debug (12/12/19 9:42:03 PM)] RunTimeSETUP: addToClasspath:
+file:/C:/Users/Shreeya/Pictures/S/sikulixapi.jar
+[debug (12/12/19 9:42:03 PM)] RunSetup: trying to run org.sikuli.script.Sikulix.testSetup()
+[debug (12/12/19 9:42:03 PM)] RunSetup: class found: class org.sikuli.script.Sikulix
+[debug (12/12/19 9:42:03 PM)] RunSetup: getMethod: public static boolean org.sikuli.script.Sikulix.testSetup()
+[debug (12/12/19 9:42:03 PM)] RunSetup: invoke: public static boolean org.sikuli.script.Sikulix.testSetup()
+[debug (12/12/19 9:42:03 PM)] RunTimeSETUP: exists libs folder at: C:\Users\Shreeya\AppData\Roaming\Sikulix\SikulixLibs_201807110819
+[debug (12/12/19 9:42:03 PM)] RunTimeSETUP: libs folder empty or has wrong content
+[debug (12/12/19 9:42:03 PM)] RunTimeSETUP: now exporting libs
+[debug (12/12/19 9:42:03 PM)] RunTimeSETUP: libs to export are at:
+jar:file:/C:/Users/Shreeya/Pictures/S/sikulixapi.jar!/sikulixlibs/windows/libs64
+[debug (12/12/19 9:42:03 PM)] RunTimeSETUP: resourceList: enter
+[debug (12/12/19 9:42:03 PM)] RunTimeSETUP: resourceLocation: (class org.sikuli.setup.RunSetup) /sikulixlibs/windows/libs64
+[debug (12/12/19 9:42:03 PM)] RunTimeSETUP: resourceList: having jar: jar:file:/C:/Users/Shreeya/Pictures/S/sikulixapi.jar!/sikulixlibs/windows/libs64
+[debug (12/12/19 9:42:05 PM)] RunTimeSETUP: files exported: 17 from: /sikulixlibs/windows/libs64 to:
+ C:\Users\Shreeya\AppData\Roaming\Sikulix\SikulixLibs_201807110819
+[debug (12/12/19 9:42:06 PM)] RunTimeSETUP: addToWindowsSystemPath: added to systempath:
+C:\Users\Shreeya\AppData\Roaming\Sikulix\SikulixLibs_201807110819
+[debug (12/12/19 9:42:06 PM)] RunTimeSETUP: checkJavaUsrPath: added to ClassLoader.usrPaths
+[debug (12/12/19 9:42:06 PM)] RunTimeSETUP: loadLib: VisionProxy.dll
+[debug (12/12/19 9:42:06 PM)] Mouse: init start
+[debug (12/12/19 9:42:07 PM)] Mouse: init end
+[debug (12/12/19 9:42:07 PM)] Image: BufferedImage: (100, 100)
+[debug (12/12/19 9:42:07 PM)] Finder: Image: __BufferedImage__: (100x100)
+[debug (12/12/19 9:42:07 PM)] Sikulix: testSetup: Finder setup with image worked
+[debug (12/12/19 9:42:07 PM)] FileManager: tempfile create:
+C:\Users\Shreeya\AppData\Local\Temp\Sikulix_368462888\sikuli-821131249528503454.png
+[debug (12/12/19 9:42:07 PM)] Image: loaded: C:/Users/Shreeya/AppData/Local/Temp/Sikulix_368462888/sikuli-821131249528503454.png (file:/C:/Users/Shreeya/AppData/Local/Temp/Sikulix_368462888/sikuli-821131249528503454.png)
+[debug (12/12/19 9:42:07 PM)] Image: cached: C:/Users/Shreeya/AppData/Local/Temp/Sikulix_368462888/sikuli-821131249528503454.png (29 KB) (# 1 KB 29 -- 0 % of 64 MB)
+[debug (12/12/19 9:42:07 PM)] Sikulix: testSetup: Finder setup with image file worked
+[debug (12/12/19 9:42:07 PM)] Image: reused: C:/Users/Shreeya/AppData/Local/Temp/Sikulix_368462888/sikuli-821131249528503454.png (file:/C:/Users/Shreeya/AppData/Local/Temp/Sikulix_368462888/sikuli-821131249528503454.png)
+[debug (12/12/19 9:42:07 PM)] Region: wait: waiting 3.0 secs for C:/Users/Shreeya/AppData/Local/Temp/Sikulix_368462888/sikuli-821131249528503454.png to appear in S(0)[0,0 1920x1080]
+[debug (12/12/19 9:42:08 PM)] Region: wait: C:/Users/Shreeya/AppData/Local/Temp/Sikulix_368462888/sikuli-821131249528503454.png appeared (M[0,0 100x100]@S(S(0)[0,0 1920x1080]) S:1.00 C:50,50 [615 msec])
+[debug (12/12/19 9:42:08 PM)] Sikulix: testSetup: Screen.find(imagefile) worked
+[debug (12/12/19 9:42:08 PM)] Image: reused: C:/Users/Shreeya/AppData/Local/Temp/Sikulix_368462888/sikuli-821131249528503454.png (file:/C:/Users/Shreeya/AppData/Local/Temp/Sikulix_368462888/sikuli-821131249528503454.png)
+[debug (12/12/19 9:42:08 PM)] Region: wait: waiting 3.0 secs for C:/Users/Shreeya/AppData/Local/Temp/Sikulix_368462888/sikuli-821131249528503454.png to appear in S(0)[0,0 1920x1080]
+[debug (12/12/19 9:42:08 PM)] Region: wait: C:/Users/Shreeya/AppData/Local/Temp/Sikulix_368462888/sikuli-821131249528503454.png appeared (M[0,0 100x100]@S(S(0)[0,0 1920x1080]) S:1.00 C:50,50 [420 msec])
+[debug (12/12/19 9:42:08 PM)] Sikulix: testSetup: repeated Screen.find(imagefile) worked
+[debug (12/12/19 9:42:18 PM)] Sikulix: testSetup: Finder.find: worked
+[debug (12/12/19 9:42:23 PM)] RunSetup: ... SikuliX Setup seems to have ended successfully ;-)
+[debug (12/12/19 9:42:23 PM)] RunTimeSETUP: final cleanup
+[debug (12/12/19 9:42:27 PM)] FileManager: deleteFileOrFolder:
+C:\Users\Shreeya\AppData\Local\Temp\Sikulix_368462888
